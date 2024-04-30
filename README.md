@@ -46,13 +46,13 @@ This project implements a tab component in HTML, CSS, and JavaScript. It allows 
   - The initial content of the tab component is defined in the allItems array.
   - This content is used to populate the tab component on page load and reset.
     
-## Compatibility:
+## Compatibility
   - The tab component is compatible with modern web browsers.
   - It includes responsive design for optimal viewing on small screens.
 
-## Further Customization:
+## Further Customization
   - Developers can customize the tab component by modifying the HTML structure, CSS styles, and JavaScript functionality to suit specific requirements.
 
-## License:
+## License
   - This project is available under the [MIT License](https://mit-license.org/). Feel free to use, modify, and distribute according to the terms of the license.
 
