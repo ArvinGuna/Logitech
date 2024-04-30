@@ -9,29 +9,42 @@ This project implements a tab component in HTML, CSS, and JavaScript. It allows 
 - Ability to delete tabs.
 - Reset functionality to restore the initial state.
 
-## How to use
+## How to Use
+### 1. Checkout main branch
+  - If you're using Git, navigate to your project directory in the terminal or command prompt.
+  - Use the following command to switch to the main branch:
+  ```
+  git checkout main
+  ```
 
-### 1. HTML Structure:
+### 2. Run HTML file
+  - After checking out the main branch, navigate to the directory where the **TABCOMPONENT.html** file is located.
+  - Open the HTML file in a web browser of your choice. You can do this by double-clicking the file or right-clicking and selecting "Open with" and choosing a web browser.
+  - Make sure to enable javascript in your browser
+       
+## Functionality
+
+### 1. Overview:
+  - Users can navigate between tabs using the previous and next buttons.
+  - Tabs can be deleted individually using the delete button associated with each tab.
+  - The reset button restores the tab component to its initial state, including the original content and tab order.
+
+### 2. HTML Structure:
   - The tab component is structured with HTML elements.
   - The navigation wrapper (nav-wrapper) contains previous (prevBtn) and next (nextBtn) buttons.
   - The tab navigation (tab-nav) dynamically populates tab buttons.
   - The tab content container (container) dynamically populates tab content.
 
-### 2. CSS Styling:
+### 3. CSS Styling:
   - CSS styles define the appearance of the tab component, including button styles, tab content layout, and responsive design for small screens.
 
-### 3. JavaScript Functionality:
+### 4. JavaScript Functionality:
   - JavaScript handles the dynamic creation of tab elements, tab navigation, content population, tab deletion, and resetting functionality.
   - Event listeners are attached to buttons for navigation, tab deletion, and resetting.
 
-### 4. Initial Content:
+### 5. Initial Content:
   - The initial content of the tab component is defined in the allItems array.
   - This content is used to populate the tab component on page load and reset.
-
-## Functionality Overview:
-  - Users can navigate between tabs using the previous and next buttons.
-  - Tabs can be deleted individually using the delete button associated with each tab.
-  - The reset button restores the tab component to its initial state, including the original content and tab order.
     
 ## Compatibility:
   - The tab component is compatible with modern web browsers.
